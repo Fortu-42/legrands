@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
+
+/*.owl-carousel {
+    margin-top: 0;
+}*/
+
+.img {
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+    left: -1px;
+}
+
+.img-1 {
+    background-image: url("../img/areadt.png");
+}
+
+.img-2 {
+    background-image: url("../img/areadtt.png");
+}
+
+.img-3 {
+    background-image: url("../img/salon.png");
+}
+
+.img-4 {
+    background-image: url("../img/salonn.png");
+}
+
+.img-5 {
+    background-image: url("../img/set.png");
+}
+
+.pos {
+    width: 80%;
+    padding: 30px 0 0 90px;
+}
+
+.pos h1 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.lead {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+button.btn {
+    position: relative;
+    left: 50%;
+    margin-left: -157px;
+    height: 50px;
+    padding: 0 80px;
+    vertical-align: middle;
+    background: #19b9e7;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    text-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+
+button.btn:hover {
+    opacity: 0.6;
+    color: #fff;
+}
+
+button.btn:active {
+    outline: 0;
+    opacity: 0.6;
+    color: #fff;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+button.btn:focus {
+    outline: 0;
+    opacity: 0.6;
+    background: #19b9e7;
+    color: #fff;
+}
+
+button.btn:active:focus,
+button.btn.active:focus {
+    outline: 0;
+    opacity: 0.6;
+    background: #19b9e7;
+    color: #fff;
+}
+
+.navbar.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.owl-dot {
+    margin-top: -30px;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    position: absolute;
+    margin-top: -20px;
+    z-index: 9999999;
+}
+
+.navi {
+    background-color: #333333;
+    height: 10vh;
+    position: relative;
+    top: -1px;
+    left: -1px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    height: 10vh;
+    line-height: 35px;
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    height: 10vh;
+    line-height: 37px;
+    color: white;
+}
