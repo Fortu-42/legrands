@@ -11,7 +11,8 @@ $(document).ready(function() {
         items: 2,
         nav: false,
         autoHeight: false,
-        autoHeightClass: 'owl-height'
+        autoHeightClass: 'owl-height',
+        lazyLoad : true
     });
 
 
